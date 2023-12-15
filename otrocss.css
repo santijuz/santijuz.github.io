@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@600&family=Redressed&display=swap');
+
+
+h1, h2 {
+    color: #efb810;
+}  
+
+h3, h4, h5, h6,p{
+    color: white;
+    
+}
+
+h1,h2,h3 {
+    font-family:redressed, serif;
+    text-align: center;
+}
+
+
+h4, h5, h6,p {
+    font-family: poppins, sans-serif;
+}
+
+body {
+    background-image:url(img/fondo.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-xs {
+    background-image: url(img/fondo\ madera2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    background-image: url(img/hojas.jpg);
+    
+
+}
+.tabs label:hover {
+    color: white;
+    
+    cursor: pointer;
+  }
+
+  .tabs label {
+    color: rgb(233, 233, 233);   
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 0 -1px;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+.card .card-body .card-subtitle,
+.card .card-body h5 {
+  color: #efb810;
+  
+}
+
+
+
+.tabs label {
+    background-image: url(img/madera\ clara.avif);
+    background-position: center;
+    background-size: cover;
+} 
+
+
+.tabs  {
+    background-image: url(img/fondo\ madera2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    background-image: url(img/fondo\ madera2.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+@media (max-width: 900px){
+    body {
+        background-size: auto;
+    }
+
+}
